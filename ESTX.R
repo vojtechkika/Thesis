@@ -4,12 +4,7 @@
 # in RStudio
 # setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# install.packages("dplyr")
-# install.packages("rugarch")
-# install.packages("qrmtools")
-# install.packages("copula")
-# install.packages("zoo")
-# install.packages("readr")
+
 
 library(dplyr)
 library(rugarch)
@@ -1228,7 +1223,7 @@ dendro_ESX50_mod2 <- dendro_ESX50_mod2 %>% set("by_labels_branches_col",
                                                value = c( "Schneider Electric (FRA)","Siemens (GER)"),
                                                TF_values = c(node_cols[3],Inf)) 
 dendro_ESX50_mod2 <- dendro_ESX50_mod2 %>% set("by_labels_branches_col",
-                                               value = c("Orange (FRA)", "Telefónica (SPA)"),
+                                               value = c("Orange (FRA)", "TelefÃ³nica (SPA)"),
                                                TF_values = c(node_cols[7],Inf)) 
 dendro_ESX50_mod2 <- dendro_ESX50_mod2 %>% set("by_labels_branches_col",
                                                value = c("Allianz (GER)", "AXA (FRA)","BNP Paribas (FRA)", "ING Groep (NLD)"),
@@ -1251,7 +1246,7 @@ dendro_ESX50_mod2 <- dendro_ESX50_mod2 %>% set("by_labels_branches_col",
 rev(dendro_ESX50_mod2 %>% labels)
 
 dendro_ESX50_mod2 <- dendro_ESX50_mod2 %>% set("by_labels_branches_lty",
-                                               value = c("BASF (GER)", "Bayer (GER)","Deutsche Telekom (GER)","Münchener Rückversicherungs (GER)"),
+                                               value = c("BASF (GER)", "Bayer (GER)","Deutsche Telekom (GER)","MÃ¼nchener RÃ¼ckversicherungs (GER)"),
                                                TF_values = c(2,Inf)) 
 dendro_ESX50_mod2 <- dendro_ESX50_mod2 %>% set("by_labels_branches_lty",
                                                value = c("Vivendi (FRA)","Sanofi (FRA)"),
@@ -1267,7 +1262,7 @@ dendro_ESX50_mod2 <- dendro_ESX50_mod2 %>% set("by_labels_branches_lty",
                                                value = c("Generali (ITA)","Intesa Sanpaolo (ITA)"),
                                                TF_values = c(6,Inf)) 
 dendro_ESX50_mod2 <- dendro_ESX50_mod2 %>% set("by_labels_branches_lty",
-                                               value = c("VINCI (FRA)","Société Générale (FRA)"),
+                                               value = c("VINCI (FRA)","SociÃ©tÃ© GÃ©nÃ©rale (FRA)"),
                                                TF_values = c(3,Inf)) 
 dendro_ESX50_mod2 <- dendro_ESX50_mod2 %>% set("by_labels_branches_lty",
                                                value = c("Airbus (FRA)","Safran (FRA)"),
@@ -1276,7 +1271,7 @@ dendro_ESX50_mod2 <- dendro_ESX50_mod2 %>% set("by_labels_branches_lty",
                                                value = c("Danone (FRA)","EssilorLuxottica (FRA)"),
                                                TF_values = c(3,Inf)) 
 dendro_ESX50_mod2 <- dendro_ESX50_mod2 %>% set("by_labels_branches_lty",
-                                               value = c("L'Oréal (FRA)","LVMH (FRA)"),
+                                               value = c("L'OrÃ©al (FRA)","LVMH (FRA)"),
                                                TF_values = c(3,Inf)) 
 
 
